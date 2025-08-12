@@ -20,6 +20,8 @@ personalizadas y acceso reactivo.
 - Dependencias principales:
     - `spring-boot-starter-data-jpa`
     - `spring-boot-starter-validation`
+    - `spring-boot-autoconfigure`
+    - `org.projectlombok`
     - Driver de base de datos correspondiente (PostgreSQL/MySQL/Oracle)
 
 ## 📦 Instalación

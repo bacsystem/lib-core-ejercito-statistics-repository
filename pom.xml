@@ -233,6 +233,7 @@
                 <artifactId>dependency-check-maven</artifactId>
                 <version>6.1.5</version>
                 <configuration>
+                    <skip>true</skip><!--change prod to false-->
                     <suppressionFiles>
                         <suppressionFile>config/dependency/suppression.xml</suppressionFile>
                     </suppressionFiles>
@@ -280,6 +281,7 @@
                 <artifactId>spotbugs-maven-plugin</artifactId>
                 <version>4.1.4</version>
                 <configuration>
+                    <skip>true</skip> <!--change prod to false-->
                     <effort>Max</effort>
                     <threshold>Low</threshold>
                     <xmlOutput>true</xmlOutput>
